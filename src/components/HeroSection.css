@@ -1,0 +1,257 @@
+.forma {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  width: 100%;
+  flex-wrap: wrap;
+  background-color: cornflowerblue;
+}
+.form-control {
+  height: 40px;
+}
+.btn {
+  background-color: aqua;
+  height: 40px;
+  border-radius: 70px;
+}
+
+.home__hero-section {
+  background: url(../1.jpeg) no-repeat;
+
+  color: #fff;
+  padding: 50vh 0;
+  height: 100vh;
+  background-size: cover;
+}
+.heading {
+  margin-left: 10px;
+  font-size: 5rem;
+  user-select: none;
+}
+.home__hero-subtitle {
+  font-size: 32px;
+  user-select: none;
+  margin-left: 14px;
+}
+.two-section {
+  left: 300;
+  padding: 260px 0;
+  height: 120vh;
+  background-image: url(../2.jpg);
+  background-size: cover;
+}
+.two-section.active {
+  left: 0;
+  padding: 260px 0;
+  height: 120vh;
+  background-image: url(../2.jpg);
+  background-size: cover;
+}
+.title {
+  color: #fff;
+  font-size: 6rem;
+  user-select: none;
+  margin-left: 400px;
+  opacity: 0;
+}
+.opisanie {
+  color: #fff;
+  font-size: 24px;
+  user-select: none;
+  margin-left: 400px;
+  font-style: italic;
+  opacity: 0;
+}
+.title.active {
+  color: #fff;
+  font-size: 6rem;
+  user-select: none;
+  margin-left: 4px;
+  transition-duration: 0.5s;
+  opacity: 1;
+}
+.opisanie.active {
+  color: #fff;
+  font-size: 24px;
+  user-select: none;
+  margin-left: 12px;
+  font-style: italic;
+  transition-duration: 0.5s;
+  opacity: 1;
+}
+.сontacti {
+  background-image: url(../3.png);
+  background-size: cover;
+  height: 115vh;
+  padding: 260px 0;
+}
+.titletwo {
+  color: #fff;
+  font-size: 3rem;
+  user-select: none;
+  margin-right: 200px;
+  opacity: 0;
+}
+.containertwosection {
+  padding: 0px 0;
+  z-index: 1;
+  width: 100%;
+  max-width: 1300px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+
+.opisanietwo {
+  flex-wrap: nowrap;
+  color: #fff;
+  font-size: 1rem;
+  user-select: none;
+  margin-right: 200px;
+  font-style: italic;
+  opacity: 0;
+}
+.titletwo.active {
+  margin-left: 4px;
+  opacity: 1;
+  font-size: 64px;
+  transition-duration: 0.5s;
+}
+.opisanietwo.active {
+  margin-left: 8px;
+  font-size: 28px;
+  opacity: 1;
+  transition-duration: 0.5s;
+}
+.karta {
+  height: 5vh;
+}
+.a1 {
+  padding: 70px 0;
+
+  background-image: url(../5.png);
+  transition-duration: 0.5s;
+}
+.a2 {
+  padding: 70px 0;
+
+  background-image: url(../4.png);
+  transition-duration: 0.5s;
+}
+.a3 {
+  padding: 70px 0;
+
+  background-image: url(../3.png);
+  transition-duration: 0.5s;
+}
+.a4 {
+  padding: 70px 0;
+
+  background-image: url(../2.jpg);
+  transition-duration: 0.5s;
+}
+.a5 {
+  padding: 70px 0;
+
+  background-image: url(../1.jpeg);
+  transition-duration: 0.5s;
+}
+.buttonmenu1 {
+  position: relative;
+
+  font-size: 3rem;
+  color: #fff;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+.buttonmenu2 {
+  position: relative;
+
+  font-size: 3rem;
+  color: #fff;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+.knopka {
+}
+.knopka2 {
+}
+.button {
+  color: aqua;
+  background-color: black;
+}
+.naaavaa {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.2s;
+  border-bottom: 1px solid #f5dfdc;
+}
+.naaavaa:hover {
+  text-decoration: none;
+  color: #fff;
+  border-top: 1px solid #f5dfdc;
+  border-left: 1px solid #f5dfdc;
+  border-right: 1px solid #f5dfdc;
+}
+.buttonknopka {
+  margin-top: 0rem;
+  background: #f5dfdc;
+  border-radius: 60px;
+  width: 15rem;
+  height: 5rem;
+  font-size: 30px;
+  line-height: 32px;
+  cursor: pointer;
+}
+.buttonknopka2 {
+  margin-top: 2rem;
+  background: #f5dfdc;
+  border-radius: 60px;
+  width: 15rem;
+  height: 5rem;
+  font-size: 30px;
+  cursor: pointer;
+}
+.knopka:hover {
+}
+.black {
+  color: black;
+}
+
+@media screen and (max-width: 740px) {
+  .сontacti {
+    padding: 100px 0;
+  }
+  .containertwosection {
+    margin-left: 0px;
+    margin-top: 40px;
+  }
+  .two-section {
+    padding: 10px 0;
+  }
+  .title {
+    font-size: 32px;
+  }
+  .opisanie {
+    font-size: 16px;
+    flex-wrap: wrap;
+  }
+  .titletwo {
+    width: 200px;
+    font-size: 32px;
+  }
+  .opisanietwo {
+    width: 230px;
+    font-size: 8px;
+  }
+  .heading {
+    font-size: 3rem;
+  }
+  .home__hero-subtitle {
+    font-size: 24px;
+  }
+}
